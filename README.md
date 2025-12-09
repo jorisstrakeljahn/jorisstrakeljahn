@@ -27,9 +27,8 @@ infrastructure**:
 
 ## Selected past projects
 
-- `binex-backend` – Java backend with REST API for a student project
-- `binex-frontend` – Vue frontend to interact with core contracts
-- `survey-nft` – NFT-based survey experiment (Web3)
+- `taskflow-ai` – personal task manager that combines the simplicity of a to-do list with the power of AI
+- `survey-nft` – NFT-based survey frontend to interact with core contracts (Web3)
 
 ---
 
