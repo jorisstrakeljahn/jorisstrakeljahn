@@ -36,8 +36,6 @@ infrastructure**:
 
 - Agentic architectures (LLM agents, tool orchestration, workflows)
 - Bitcoin & Lightning as infrastructure for machine payments
-- Governance & observability for autonomous systems (limits, audit, policies)
-- Turning research ideas into running code & real-world prototypes
 
 ---
 
