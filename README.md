@@ -4,7 +4,6 @@ I'm building **AgentSats** – an open-source, non-custodial governance layer fo
 Bitcoin/Lightning payments by AI agents.
 
 - 🧠 Focus: AI agents, Bitcoin/Lightning, API economy, machine-to-machine payments
-- 🛠️ I like working on: SDKs, governance layers, developer tooling
 - 🎓 M.A. Business Innovation & Technology (HSBI), combining business & deep tech
 
 ---
@@ -22,24 +21,3 @@ infrastructure**:
 - Designed for agentic workflows, Pay-per-API and machine payments
 
 > Status: early-stage / exploration. Expect rapid iteration and breaking changes.
-
----
-
-## Selected past projects
-
-- `taskflow-ai` – personal task manager that combines the simplicity of a to-do list with the power of AI
-- `survey-nft` – NFT-based survey frontend to interact with core contracts (Web3)
-
----
-
-## Interests & direction
-
-- Agentic architectures (LLM agents, tool orchestration, workflows)
-- Bitcoin & Lightning as infrastructure for machine payments
-
----
-
-## Connect
-
-- 💼 LinkedIn: https://www.linkedin.com/in/joris-strakeljahn/
-- 📧 Contact: joris.strakeljahn@web.de
