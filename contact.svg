@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="835" height="300" viewBox="0 0 835 300">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="835" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="border2" x1="0" y1="0" x2="835" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#30363d"/>
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0.3"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+  </style>
+
+  <rect width="835" height="300" rx="10" fill="url(#bg2)" stroke="url(#border2)" stroke-width="1"/>
+
+  <!-- Accent line -->
+  <rect x="40" y="18" width="50" height="3" rx="1.5" fill="#58a6ff" opacity="0.7"/>
+
+  <text x="40" y="55" font-size="24" font-weight="bold" fill="#58a6ff">Get In Touch</text>
+
+  <text font-size="14" fill="#e6edf3">
+    <tspan x="40" y="92">Open for freelance projects</tspan>
+    <tspan x="40" y="112">and collaborations. Let&apos;s build something.</tspan>
+  </text>
+
+  <!-- Email box -->
+  <rect x="40" y="134" width="252" height="32" rx="6" fill="none" stroke="#e3b341" stroke-width="1.5"/>
+  <text x="166" y="155" font-size="13" fill="#e3b341" text-anchor="middle">joris.strakeljahn@web.de</text>
+
+  <text font-size="13" fill="#8b949e">
+    <tspan x="40" y="202">Joris Strakeljahn</tspan>
+    <tspan x="40" y="222">G&#xFC;tersloh, Germany</tspan>
+  </text>
+
+  <text x="40" y="260" font-size="13" fill="#8b949e">
+    <tspan fill="#58a6ff">&#x2197;</tspan> jorisstrakeljahn.de
+  </text>
+
+  <!-- Map of Germany with neighbors -->
+  <g transform="translate(430, 10)">
+
+    <!-- Germany outline -->
+    <polygon
+      points="104,70 146,57 148,51 148,32 165,32 185,46 202,57 241,51 269,46 294,54 302,81 308,100 302,113 322,132 288,140 238,157 260,181 280,200 266,227 241,221 213,230 174,230 115,227 120,216 120,200 126,189 115,184 98,184 87,167 73,140 73,113 101,97"
+      fill="rgba(88,166,255,0.04)"
+      stroke="#2d4a5e"
+      stroke-width="1.5"
+      stroke-linejoin="round"/>
+
+    <!-- Marker glow -->
+    <circle cx="137" cy="111" r="16" fill="#58a6ff" opacity="0.03"/>
+    <!-- Pulsing ring -->
+    <circle cx="137" cy="111" r="8" fill="#58a6ff" opacity="0.15">
+      <animate attributeName="opacity" values="0.08;0.4;0.08" dur="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="5;12;5" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Solid dot -->
+    <circle cx="137" cy="111" r="3.5" fill="#58a6ff"/>
+    <text x="149" y="108" font-size="11" fill="#e6edf3" font-weight="500">G&#xFC;tersloh</text>
+
+    <!-- Neighboring country labels -->
+    <text font-size="10" fill="#3d4a5c" font-weight="500" letter-spacing="1">
+      <tspan x="152" y="22">DK</tspan>
+      <tspan x="36" y="78">NL</tspan>
+      <tspan x="44" y="145">BE</tspan>
+      <tspan x="58" y="178">LU</tspan>
+      <tspan x="82" y="218">FR</tspan>
+      <tspan x="138" y="254">CH</tspan>
+      <tspan x="218" y="254">AT</tspan>
+      <tspan x="330" y="148">CZ</tspan>
+      <tspan x="314" y="72">PL</tspan>
+    </text>
+  </g>
+</svg>
